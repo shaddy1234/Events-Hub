@@ -11,14 +11,14 @@ export function useTheme() {
 }
 
 export function ThemeProvider({ children }) {
-  // Check for saved theme preference or default to system preference
+  // Check for saved theme preference or default to light mode
   const [isDark, setIsDark] = useState(() => {
     const saved = localStorage.getItem('theme');
     if (saved) {
       return saved === 'dark';
     }
-    // Check system preference
-    return window.matchMedia('(prefers-color-scheme: dark)').matches;
+    // Default to light mode
+    return false;
   });
 
   // Update document class and localStorage when theme changes
