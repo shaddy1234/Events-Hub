@@ -246,7 +246,7 @@ This project is licensed under the MIT License.
 
 ## 👨‍💻 Author
 
-**Your Name**
+**Shadrack Kimaau**
 - GitHub: [@shaddy1234](https://github.com/shaddy1234)
 - LinkedIn: [Shadrack Kimaau](https://linkedin.com/in/shadrack-kimaau/)
 - Portfolio: [shadrack-kimaau.vercel.app](https://shadrack-kimaau.vercel.app)
